@@ -649,4 +649,11 @@ This project is created for educational purposes as part of an API Group Project
 | `facebook` | Facebook's official page |
 | `meta` | Meta Platforms official page |
 
+## Team Members
+
+- Vincent Cayabyab – Project Lead / API Integration
+- Maria Lorena Sheen Velasco – Frontend & UI Design 
+- Fiona Ley Maramba – Documentation & Testing 
+
 *Note: Only public profiles will return data. Private profiles will return an error.*
+
