@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook Graph API Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Facebook Page Posts Viewer</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input 
+        type="text" 
+        id="pageIdInput" 
+        placeholder="Enter Facebook Page ID"
+      />
+      <button id="fetchBtn">Fetch Posts</button>
+    </div>
+
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="error" class="error"></div>
+
+    <div id="results" class="results"></div>
+  </main>
+
+  <footer>
+    <p>Powered by Facebook Graph API</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
